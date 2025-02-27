@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000000;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .signup-card {
+    display: flex;
+    width: 800px;
+    height: 550px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .signup-image {
+    width: 50%;
+    background: url('https://images.unsplash.com/photo-1549207107-2704df6b92ab?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  }
+  
+  .signup-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .blue-text { color: blue; }
+  .red-text { color: red; }
+  
+  .switch-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .switch-buttons button {
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .inactive {
+    background: transparent;
+    color: black;
+  }
+  
+  .active {
+    background: red;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .continue-button {
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .continue-button:hover {
+    background: darkred;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: green;
+    text-align: center;
+  }
+
+  .google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  
+  .google-button:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .google-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  .login-text {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  .login-link {
+    color: #007bff;  /* Stylish blue color */
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .login-link:hover {
+    color: #0056b3; /* Slightly darker blue on hover */
+    text-decoration: underline;
+  }
+  
+  
+  
