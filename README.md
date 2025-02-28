@@ -4,8 +4,8 @@
 
 This repository contains **two branches** for better organization:  
 
-- **`main` branch** – 🚍 **Backend** (Bus Booking System API)  
-- **`task-frontend` branch** – 🚗 **Frontend** (Second-hand Car Buying Application)  
+- **main branch** – 🚍 **Backend** (Bus Booking System API)  
+- **task-frontend branch** – 🚗 **Frontend** (Second-hand Car Buying Application)  
 
 ---
 
