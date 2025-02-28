@@ -1,5 +1,3 @@
----
-
 # 🏆 **Anthill Networks SDE Intern Tasks**  
 
 This repository contains **two branches** for better organization:  
